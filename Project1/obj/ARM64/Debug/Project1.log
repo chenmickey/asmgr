@@ -1,0 +1,45 @@
+﻿  Validating sources
+  Copying sources remotely to '192.13.125.9'
+  Validating architecture
+  Starting remote build
+  Compiling sources:
+  asmgr.cpp
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(21,13): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(21,13): warning :    defPath = "/usr/bin/autossh";
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(21,13): warning :              ^~~~~~~~~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(22,17): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(22,17): warning :    defConfPath = "/opt/conf/autossh.conf";
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(22,17): warning :                  ^~~~~~~~~~~~~~~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(23,16): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(23,16): warning :    defRsaPath = "/root/.ssh/id_rsa";
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(23,16): warning :                 ^~~~~~~~~~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(57,23): warning : conversion to ‘int’ from ‘std::vector<std::__cxx11::basic_string<char> >::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(57,23): warning :   int size = confs.size();
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(57,23): warning :              ~~~~~~~~~~^~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(65,37): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(65,37): warning :     int psrc = conf.find_first_not_of(' ');
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(65,37): warning :                ~~~~~~~~~~~~~~~~~~~~~~^~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(66,36): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(66,36): warning :     int pesrc_1 = conf.find_first_of(' ', psrc);
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(66,36): warning :                   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(68,37): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(68,37): warning :     int pdst = conf.find_first_not_of(' ', pesrc_1);
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(68,37): warning :                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(69,36): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(69,36): warning :     int pedst_1 = conf.find_first_of(' ', pdst);
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(69,36): warning :                   ~~~~~~~~~~~~~~~~~~^~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(71,37): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(71,37): warning :     int phst = conf.find_first_not_of(' ', pedst_1);
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(71,37): warning :                ~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(77,28): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(77,28): warning :     int len1 = arg1_s.length();
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(77,28): warning :                ~~~~~~~~~~~~~^~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(88,28): warning : conversion to ‘int’ from ‘std::__cxx11::basic_string<char>::size_type {aka long unsigned int}’ may alter its value [-Wconversion]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(88,28): warning :     int len2 = arg2_s.length();
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(88,28): warning :                ~~~~~~~~~~~~~^~
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(104,4): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(104,4): warning :     };
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(104,4): warning :     ^
+E:\WorkSpace2\Projects4Linux\Project1\Project1\asmgr.cpp(104,4): warning : ISO C++ forbids converting a string constant to ‘char*’ [-Wwrite-strings]
+  Linking objects
+  Project1.vcxproj -> E:\WorkSpace2\Projects4Linux\Project1\Project1\bin\ARM64\Debug\Project1.out

@@ -1,0 +1,1 @@
+g++ -o "/root/projects/Project1/bin/ARM64/Debug/Project1.out" -Wl,--no-undefined -Wl,-z,relro -Wl,-z,now -Wl,-z,noexecstack /root/projects/Project1/obj/ARM64/Debug/asmgr.o
